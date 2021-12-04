@@ -1,4 +1,5 @@
 import React from 'react';
+import Canvas from './Canvas/Canvas/Canvas';
 import Header from './Header/Header';
 import HeaderSearch from './Header/HeaderSearch/HeaderSearch';
 
@@ -7,7 +8,9 @@ const Home = () => {
         <div>
             
             <Header ></Header>
+            
             <HeaderSearch></HeaderSearch>
+            <Canvas></Canvas>
            
         </div>
     );
